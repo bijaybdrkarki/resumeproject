@@ -1,0 +1,79 @@
+/* css reset */
+*{
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+    font-size:1.1rem;
+    background-color:#333333;
+    line-height: 1.4rem;
+    
+}
+.header-background{
+    background-image: url(../img/header-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    text-align: center;
+}
+.title-heading{
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+}
+.readmore-button{
+    background-color: #333333;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.9rem;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #555555;
+}
+.software-section{
+    background-color: #eaeaea;
+    padding: 1.5rem 3rem 1rem 3rem;
+    
+}
+.detail-margin{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.section-detail{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr; 
+  background-color: white;
+   
+    
+}
+.section-detail h2, .section-detail p{
+    padding: 1.5rem 1.5rem;
+    color: black;  
+}
+.detail-margin{
+    
+}
+
+img{
+    width: 100%;
+   min-height: 250px;
+}
+.empCont-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Employee-section{
+    background-color: #2690d4;
+    color: white;
+    padding: 0.5rem;
+}
+.Contactme-section{
+    background-color: white;
+    color : black;
+    padding: 0.5rem;
+}
