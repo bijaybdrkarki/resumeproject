@@ -46,22 +46,24 @@ body{
 }
 .section-detail{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr; 
-  background-color: white;
-   
-    
+    grid-template-columns: 1fr 1fr 1fr; 
 }
 .section-detail h2, .section-detail p{
     padding: 1.5rem 1.5rem;
     color: black;  
 }
-.detail-margin{
+.section-detail div{
+    margin: 0.25rem;
+    background-color: white;
     
+}
+.empCont-section div{
+    margin: 0.125rem;
 }
 
 img{
     width: 100%;
-   min-height: 250px;
+    min-height: 300px;
 }
 .empCont-section{
     display: grid;
@@ -70,10 +72,30 @@ img{
 .Employee-section{
     background-color: #2690d4;
     color: white;
-    padding: 0.5rem;
+    
 }
 .Contactme-section{
     background-color: white;
     color : black;
+    
+}
+ .empCont-section h2{
     padding: 0.5rem;
+}
+.empCont-section p{
+    padding: 0.5rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+}
+
+.icon{
+    font-size: 2em;
+}
+.icon i{
+    padding: 0 4rem;
 }
